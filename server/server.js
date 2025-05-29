@@ -12,7 +12,7 @@ dotenv.config();
 const app = express();
 const PORT = 5050;
 
-app.use(cors({ origin: "http://localhost:3000" }));
+app.use(cors({ origin: "https://weather-app1-gold.vercel.app/" }));
 app.use(express.json());
 
 mongoose.connect("mongodb+srv://users:MyAccess123@cluster0.gcyqffo.mongodb.net/?retryWrites=true&w=majority");
