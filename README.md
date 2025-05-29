@@ -41,21 +41,21 @@ A full-stack web application for managing and visualizing weather forecasts by l
 
 ---
 
-##Install Server Dependencies & Start Backend
+## Install Server Dependencies & Start Backend
 
 - cd server
 - npm install
 - node server.js
 
--**Server runs on http://localhost:5050
+- **Server runs on http://localhost:5050
 
 ---
 
 ##Install Client Dependencies & Start Frontend
 
--**cd ../client
--**npm install
--**npm start
+- **cd ../client
+- **npm install
+- **npm start
 
 
--**Client runs on http://localhost:3000
+- **Client runs on http://localhost:3000
