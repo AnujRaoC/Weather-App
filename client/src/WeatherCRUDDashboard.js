@@ -24,7 +24,7 @@ function WeatherCRUDDashboard() {
     }
 
     try {
-      const res = await axios.get('https://weather-app-iw08.onrender.com');
+      const res = await axios.get(`http://localhost:5050/weather`);
 
       const filtered = res.data.filter((rec) => {
         const recStart = new Date(rec.startDate);
