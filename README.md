@@ -30,11 +30,32 @@ A full-stack web application for managing and visualizing weather forecasts by l
 ---
 
 ## 📁 Project Structure
-weather-app/
-├── client/ # React frontend
-│ └── src/
-│  └── App.js
-│  └── WeatherCRUDDashboard.js
-├── server/ # Express backend
-│ └── server.js
-└── README.md
+-weather-app/
+-├── client/ # React frontend
+-│ └── src/
+-│  └── App.js
+-│  └── WeatherCRUDDashboard.js
+-├── server/ # Express backend
+-│ └── server.js
+-└── README.md
+
+
+
+##Install Server Dependencies & Start Backend
+
+
+-**cd server
+-**npm install
+-**node server.js
+
+-**Server runs on http://localhost:5050
+
+
+##Install Client Dependencies & Start Frontend
+
+-**cd ../client
+-**npm install
+-**npm start
+
+
+-**Client runs on http://localhost:3000
