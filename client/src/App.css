@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+form input, form button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.weather-result {
+  margin-top: 2rem;
+}
+
+.weather-result ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.weather-result li {
+  background: #f0f0f0;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+}
+
+.forecast-grid {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.forecast-card {
+  background: #f2f2f2;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  min-width: 200px;
+  text-align: center;
+}
+
+.forecast-card.today {
+  border: 2px solid #ffcc00;
+  background: #fffef0;
+}
