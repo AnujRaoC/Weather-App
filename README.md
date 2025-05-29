@@ -30,4 +30,11 @@ A full-stack web application for managing and visualizing weather forecasts by l
 ---
 
 ## 📁 Project Structure
-
+weather-app/
+├── client/ # React frontend
+│ └── src/
+│  └── App.js
+│  └── WeatherCRUDDashboard.js
+├── server/ # Express backend
+│ └── server.js
+└── README.md
