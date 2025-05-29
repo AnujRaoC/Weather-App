@@ -51,7 +51,7 @@ A full-stack web application for managing and visualizing weather forecasts by l
 
 ---
 
-##Install Client Dependencies & Start Frontend
+## Install Client Dependencies & Start Frontend
 
 - cd ../client
 - npm install
